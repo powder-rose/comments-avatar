@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap");
+
+body {
+  background-color: #fce6e6;
+  font-family: "Comfortaa", cursive;
+}
+
+.wrapper {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.textwindow {
+  box-sizing: border-box;
+  height: 300px;
+  width: 500px;
+  background-color: #fff;
+  color: rgb(94, 94, 94);
+  margin: 2rem;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.comment {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.textarea {
+  box-sizing: border-box;
+  resize: none;
+  border: none;
+  width: 500px;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-family: "Comfortaa", cursive;
+  color: #383838;
+}
+
+.btns {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 240px;
+  height: 30px;
+  border: none;
+  background-color: #bfe8ff;
+  color: #383838;
+  font-family: "Comfortaa", cursive;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #aadffe;
+}
+
+.message {
+  box-sizing: border-box;
+  background-color: #aadffe5d;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 1rem;
+  margin: 10px;
+}
+
+.avatar-image {
+  width: 150px;
+  height: 150px;
+
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.avatar {
+  display: none;
+  position: relative;
+  width: 160px;
+}
