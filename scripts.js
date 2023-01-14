@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     avatar.style.display = "block";
     btnAvatar.style.display = "none";
     textarea.style.width = "343px";
+    allBtns.style.justifyContent = "center";
   }
 });
 
