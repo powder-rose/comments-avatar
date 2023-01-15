@@ -67,13 +67,12 @@ body {
   border-radius: 10px;
   font-size: 15px;
   padding: 1rem;
-  margin: 10px;
+  margin: 5px 10px;
 }
 
 .avatar-image {
   width: 150px;
   height: 150px;
-
   background-color: #fff;
   box-sizing: border-box;
 }
@@ -82,4 +81,42 @@ body {
   display: none;
   position: relative;
   width: 160px;
+}
+
+.nickname-wrapper {
+  width:500px;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.nickname {
+  box-sizing: border-box;
+  border: none;
+  height: 30px;
+  width: 148px;
+  font-family: "Comfortaa", cursive;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.nickname-login {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  background-color: #fce6e6;
+  height: 30px;
+  width: 148px;
+  font-family: "Comfortaa", cursive;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.sended-message-nickname {
+  padding: 7px;
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: #fce6e6;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: fit-content;
 }
